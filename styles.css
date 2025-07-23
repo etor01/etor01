@@ -1,0 +1,107 @@
+/* ---- reset ---- */ body{ margin:0; font:normal 75% Arial, Helvetica, sans-serif; } canvas{ display: block; } /* ---- particles.js container ---- */ #particles-js{ position:absolute; width: 100%; height: 100%; background-color: #ffffff; background-image: url(""); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; } /* ---- stats.js ---- */ .count-particles{ background: #000022; position: absolute; top: 48px; left: 0; width: 80px; color: #13E8E9; font-size: .8em; text-align: left; text-indent: 4px; line-height: 14px; padding-bottom: 2px; font-family: Helvetica, Arial, sans-serif; font-weight: bold; } .js-count-particles{ font-size: 1.1em; }
+.panel{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    top: 50%;
+    left: 50%;
+    box-sizing: border-box;
+    z-index: 100;
+    background: rgb(255, 255, 255);
+    margin: -130px 0px 0px -150px;
+    padding: 20px;
+    border-radius: 30px;
+    display: block;
+}
+.duolingo-button {
+    background-color: #e0e0e0; /* Light gray for grayscale */
+    border: none;
+    border-radius: 12px; /* Rounded corners */
+    padding: 15px 20px;
+    font-size: 1em;
+    font-weight: 600;
+    color: #333; /* Dark text */
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    box-shadow: 0 6px 0 #b0b0b0, /* Bottom shadow for depth */
+                0 3px 6px rgba(0, 0, 0, 0.15); /* General shadow */
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    -webkit-appearance: none; /* For better cross-browser consistency */
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.duolingo-button:hover {
+    transform: translateY(-3px); /* Lift effect on hover */
+    box-shadow: 0 9px 0 #b0b0b0,
+                0 5px 10px rgba(0, 0, 0, 0.25);
+    background-color: #d0d0d0; /* Slightly darker on hover */
+}
+
+.duolingo-button:active {
+    transform: translateY(3px); /* Press effect on click */
+    box-shadow: 0 3px 0 #b0b0b0,
+                0 1px 3px rgba(0, 0, 0, 0.1);
+    background-color: #c0c0c0; /* Even darker on active */
+}
+
+/* Grayscale effect for images/icons if any were used inside buttons */
+.duolingo-button img {
+    filter: grayscale(100%);
+}
+
+/* Specific style for the long button in the grid */
+.button-grid .long-button {
+    grid-column: 1 / -1; /* Span across all columns */
+}
+.landing-button {
+    background-color: #e0e0e0; /* Light gray for grayscale */
+    border: none;
+    border-radius: 12px; /* Rounded corners, similar to Duolingo buttons */
+    padding: 10px 20px; /* Adjusted padding for a single button */
+    font-size: 1em;
+    font-weight: 600;
+    color: #333; /* Dark text */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block; /* Allows it to fit content and be centered */
+    cursor: pointer;
+    /* Duolingo-style depth and shadow */
+    box-shadow: 0 6px 0 #b0b0b0, /* Bottom shadow for depth */
+                0 3px 6px rgba(0, 0, 0, 0.15); /* General shadow */
+    transition: all 0.2s ease-in-out;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.landing-button:hover {
+    transform: translateY(-3px); /* Lift effect on hover */
+    box-shadow: 0 9px 0 #b0b0b0,
+                0 5px 10px rgba(0, 0, 0, 0.25);
+    background-color: #d0d0d0; 
+    color:#000022;/* Slightly darker on hover */
+}
+
+.landing-button:active {
+    transform: translateY(3px); /* Press effect on click */
+    box-shadow: 0 3px 0 #b0b0b0,
+                0 1px 3px rgba(0, 0, 0, 0.1);
+    background-color: #c0c0c0; /* Even darker on active */
+}
+
+/* Grayscale effect for images/icons if any were used inside buttons */
+.landing-button img {
+    filter: grayscale(100%);
+}
+
+/* Responsive adjustments for smaller screens if needed */
+@media (max-width: 767.98px) {
+    .landing-button {
+        padding: 12px 20px; /* Slightly adjusted for mobile to maintain size */
+        font-size: 1em;
+    }
+}

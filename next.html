@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>etornam kordzo | software engineer</title>
+    <!-- Bootstrap CSS -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="styles.css">
+        <link rel="icon" type="image/x-icon" href="favicon.png">
+
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f2f5; /* Light gray background */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .container-custom {
+            background-color: #ffffff;
+            border-radius: 30px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            width: 300px;
+            height:auto;
+            max-width: 900px; /* Max width for the container */
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            position: absolute;
+            z-index: 100;
+            top: 50%;
+            left: 50%;
+            box-sizing: border-box;
+            margin: -200px 0px 0px -150px;
+
+        }
+        .container-custom{
+            padding: 20px;
+            display: block;
+}
+
+
+        .button-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr); /* Two columns */
+            gap: 20px; /* Gap between buttons */
+        }
+
+        .button-grid .long-button {
+            grid-column: 1 / -1; /* Span across all columns */
+        }
+
+        .duolingo-button {
+            background-color: #e0e0e0; /* Light gray for grayscale */
+            border: none;
+            border-radius: 12px; /* Rounded corners */
+            padding: 15px 20px;
+            font-size: 1.1em;
+            font-weight: 600;
+            color: #333; /* Dark text */
+            text-align: center;
+            text-decoration: none;
+            display: block;
+            width: 100%;
+            box-shadow: 0 6px 0 #b0b0b0, /* Bottom shadow for depth */
+                        0 3px 6px rgba(0, 0, 0, 0.15); /* General shadow */
+            transition: all 0.2s ease-in-out;
+            cursor: pointer;
+            -webkit-appearance: none; /* For better cross-browser consistency */
+            -moz-appearance: none;
+            appearance: none;
+        }
+
+        .duolingo-button:hover {
+            transform: translateY(-3px); /* Lift effect on hover */
+            box-shadow: 0 9px 0 #b0b0b0,
+                        0 5px 10px rgba(0, 0, 0, 0.25);
+            background-color: #d0d0d0; /* Slightly darker on hover */
+        }
+
+        .duolingo-button:active {
+            transform: translateY(3px); /* Press effect on click */
+            box-shadow: 0 3px 0 #b0b0b0,
+                        0 1px 3px rgba(0, 0, 0, 0.1);
+            background-color: #c0c0c0; /* Even darker on active */
+        }
+
+        /* Grayscale effect for images/icons if any were used inside buttons */
+        .duolingo-button img {
+            filter: grayscale(100%);
+        }
+
+        .collapse-content {
+            background-color: #f8f8f8;
+            border: 1px solid #e0e0e0;
+            border-radius: 10px;
+            padding: 20px;
+            margin-top: 20px;
+            box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.05);
+        }
+
+        /* Responsive adjustments */
+        @media (min-width: 768px) {
+            .container-custom {
+                flex-direction: row; /* Side-by-side on larger screens */
+                gap: 30px;
+            }
+            .button-section {
+                flex: 0 0 40%; /* Buttons take 40% width */
+                max-width: auto;
+            }
+            .content-section {
+                flex: 1; /* Content takes remaining width */
+            }
+            .button-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 767.98px) {
+            .button-grid {
+                grid-template-columns: 1fr; /* Single column on small screens */
+            }
+            .button-grid .long-button {
+                grid-column: auto; /* Reset span */
+            }
+            .container-custom {
+                padding: 20px;
+            }
+            .duolingo-button {
+                padding: 12px 15px;
+                font-size: 1em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="particles-js">
+        <div class="container-custom">
+            <div class="button-section">
+                <div class="button-grid">
+                    <!-- About Me Button -->
+                    <button class="duolingo-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseAbout" aria-expanded="false" aria-controls="collapseAbout">
+                        About Me
+                    </button>
+
+                    <!-- My Skills Button -->
+                    <button class="duolingo-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSkills" aria-expanded="false" aria-controls="collapseSkills">
+                        My Skills
+                    </button>
+
+                    <!-- Projects Button -->
+                    <button class="duolingo-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseProjects" aria-expanded="false" aria-controls="collapseProjects">
+                        Projects
+                    </button>
+
+                    <!-- Contact Me Button -->
+                    <button class="duolingo-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseContact" aria-expanded="false" aria-controls="collapseContact">
+                        Contact Me
+                    </button>
+
+                    <!-- Download CV Button (long one) -->
+                    <button class="duolingo-button long-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCV" aria-expanded="false" aria-controls="collapseCV">
+                        Download CV
+                    </button>
+                </div>
+            </div>
+
+            <div class="content-section">
+                <!-- Collapse content for About Me -->
+                <div class="collapse collapse-content" id="collapseAbout" data-bs-parent=".content-section">
+                    <h5>About Me</h5>
+                    <p>Hello! I'm a passionate developer with a keen interest in creating engaging and user-friendly web applications. I enjoy learning new technologies and solving complex problems. My journey in tech is driven by curiosity and a desire to build impactful solutions.</p>
+                </div>
+
+                <!-- Collapse content for My Skills -->
+                <div class="collapse collapse-content" id="collapseSkills" data-bs-parent=".content-section">
+                    <h5>My Skills</h5>
+                    <ul>
+                        <li><strong>Programming Languages:</strong> JavaScript, Python, HTML, CSS</li>
+                        <li><strong>Frameworks/Libraries:</strong> React, Node.js, Express, Bootstrap</li>
+                        <li><strong>Databases:</strong> MongoDB, SQL</li>
+                        <li><strong>Tools:</strong> Git, VS Code, npm</li>
+                        <li><strong>Concepts:</strong> Responsive Design, RESTful APIs, Version Control</li>
+                    </ul>
+                </div>
+
+                <!-- Collapse content for Projects -->
+                <div class="collapse collapse-content" id="collapseProjects" data-bs-parent=".content-section">
+                    <h5>Projects</h5>
+                    <p>Here are some of my recent projects:</p>
+                    <ul>
+                        <li><strong>E-commerce Platform:</strong> A full-stack application for online shopping.</li>
+                        <li><strong>Task Manager:</strong> A simple to-do list application with user authentication.</li>
+                        <li><strong>Portfolio Website:</strong> This very website, showcasing my skills and work.</li>
+                    </ul>
+                </div>
+
+                <!-- Collapse content for Contact Me -->
+                <div class="collapse collapse-content" id="collapseContact" data-bs-parent=".content-section">
+                    <h5>Contact Me</h5>
+                    <p>Feel free to reach out to me via:</p>
+                    <ul>
+                        <li><strong>Email:</strong> your.email@example.com</li>
+                        <li><strong>LinkedIn:</strong> <a href="#" target="_blank">linkedin.com/in/yourprofile</a></li>
+                        <li><strong>GitHub:</strong> <a href="#" target="_blank">github.com/yourusername</a></li>
+                    </ul>
+                </div>
+
+                <!-- Collapse content for Download CV -->
+                <div class="collapse collapse-content" id="collapseCV" data-bs-parent=".content-section">
+                    <h5>Download CV</h5>
+                    <p>You can download my full resume here:</p>
+                    <a href="/path/to/your/cv.pdf" class="btn btn-primary" download>Download PDF</a>
+                    <p class="mt-2 text-muted"><em>(Note: Replace "/path/to/your/cv.pdf" with the actual path to your CV)</em></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="particles.min.js"></script> 
+    <script src="script.js"></script>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
