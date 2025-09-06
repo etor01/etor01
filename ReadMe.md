@@ -1,29 +1,42 @@
-# About Me
+# Hi, I’m Tornam 👋
 
-Hi, I’m Tornam 👋  
-A Software Engineer with a passion for building things that make life a little easier (or at least more interesting).
+I'm a **third-year Computer Science student at KNUST** on a journey to become a **full-stack developer**.  
+I’m passionate about building **clean, efficient, and engaging web experiences** that solve real-world problems.
 
-I enjoy solving problems—whether that’s debugging a tricky piece of code, optimizing algorithms, or figuring out how to make the perfect cup of coffee while waiting for code to compile.
+---
 
-## What I Do
+## 🔥 What I'm Focused On
 
-- **Code**: Fluent in Python, JavaScript, Dart, Java and I speak fluent semicolon.
-- **Develop**: Web apps, software, and the occasional “why not” side projects.
-- **Learn**: Constantly leveling up. Whether it's a new framework, language, or tech trend, I'm all about staying sharp.
-- **Collaborate**: I believe the best solutions come from good teamwork and the occasional meme exchange.
-- **Lifestyle**: I don't drink coffee but i love food.
+### 🌱 Learning  
+Currently deepening my knowledge in **full-stack architecture** and **Next.js features**.  
 
-## Interests & Hobbies
+### 💻 Developing  
+Building **dynamic and performant web applications** with a focus on modern JavaScript frameworks.  
 
-- Open-source projects and contributing to cool ideas.
-- Exploring new technologies (AI, Data Science, Machine Learning etc).
-- Gaming, because who doesn’t love a good strategy session? (FIFA)
-- Learning how to balance too many tabs without crashing (browser or brain).
+**My Toolkit:**
+- **Front-End:** React, Next.js, JavaScript, TypeScript, HTML5, CSS3  
+- **Back-End (Exploring):** Node.js, Supabase  
+- **Other Languages:** Python, Dart
 
-## Let’s Connect
+### 🤝 Collaborating  
+I believe **teamwork and open communication** lead to the best products.  
+I'm always open to contributing to **open-source projects** and collaborating with other developers.  
 
-If you’ve got an interesting project, a problem that needs solving, or just want to nerd out over tech stuff, let’s chat!
-I don't charge that much ;)
+---
 
-📧 [ahiataku1@gmail.com]  
-🔗 [LinkedIn/GitHub/Portfolio links]
+## 🎯 Interests & Hobbies
+- Exploring new technologies (**AI, Data Science, Machine Learning**)  
+- Contributing to **open-source projects**  
+- Gaming 🎮 (especially a good strategy session on FIFA)  
+- Discovering the best local food spots (yes, I’m a foodie! 🍲)  
+
+---
+
+## 📬 Let’s Connect  
+I'm actively seeking **internship opportunities or paid giggs :)** where I can contribute to exciting projects and grow as a developer.  
+
+If you have an interesting project, a problem that needs solving, or just want to talk tech, let's chat!  
+
+- 📧 Email: **ahiataku1@gmail.com**  
+- 🔗 [LinkedIn](#)  
+- 🔗 [Portfolio](#) 
