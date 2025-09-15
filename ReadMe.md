@@ -6,7 +6,7 @@ Software Engineer
 
 Final-year Computer Science student at KNUST, Ghana, with a strong passion for designing clean, efficient, and scalable software solutions to address real-world challenges.
 
-* 🌍  I'm based in Accra - Ghana
+* 🌍  I'm based in Kumasi - Ghana
 * 🖥️  See my portfolio at [https://github.com/etor01](http://github.com/etor01)
 * ✉️  You can contact me at [ahiataku1@gmail.com](mailto:ahiataku1@gmail.com)
 * 🚀  I'm currently working on [AgriBoost - a web tool kit for farmers](http://agriboost2-vs4s.vercel.app/)
