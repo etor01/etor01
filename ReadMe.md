@@ -1,8 +1,8 @@
 Hi 👋 My name is Etornam
 ========================
 
-Software Engineer
------------------
+Junior Software Engineer
+------------------------
 
 Final-year Computer Science student at KNUST, Ghana, with a strong passion for designing clean, efficient, and scalable software solutions to address real-world challenges.
 
