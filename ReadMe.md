@@ -39,10 +39,13 @@ Hello World 👋 Etornam Here
 
 #### GitHub Stats
 
-<a href="http://www.github.com/etor01"><img src="https://github-readme-stats.vercel.app/api?username=etor01&show_icons=true&hide=&count_private=true&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&show_icons=true" alt="etor01's GitHub stats" /></a>
+<span align='center'>
+
+<!-- <a href="http://www.github.com/etor01"><img src="https://github-readme-stats.vercel.app/api?username=etor01&show_icons=true&hide=&count_private=true&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&show_icons=true" alt="etor01's GitHub stats" /></a> -->
+
 
 <a href="http://www.github.com/etor01"><img src="https://github-readme-streak-stats.herokuapp.com/?user=etor01&stroke=ffffff&background=1c1917&ring=0891b2&fire=0891b2&currStreakNum=ffffff&currStreakLabel=0891b2&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&hide_border=true" /></a>
 
-
+</span>
 
 
