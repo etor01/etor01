@@ -5,9 +5,9 @@ Hello World 👋 Etornam Here
 
 
 * Student @ KNUST - Ghana 🇬🇭
-* I'm currently learning React with NextJS
-* Showcase project  [[AgriBoost]](http://agriboost2-vs4s.vercel.app/)
-* I'm interested in AI, Cloud Development and FullStack projects
+* I'm currently learning Backend deveopment with Nodejs and Java
+* Most Recent project  [[Dead Man Switch]](https://pulse-check-api.onrender.com/)
+* I'm interested in AI, Cloud Development and Backend projects
 * Send me a mail [[ahiataku1@gmail.com]](mailto:ahiataku1@gmail.com)
 
 <br>
