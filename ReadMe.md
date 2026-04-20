@@ -1,5 +1,5 @@
-Hello World 👋 Etornam Here
-===========================
+👋 Hey there, I'm Etornam Ahiataku
+==================================
 
 #### About Me
 
